@@ -196,11 +196,12 @@ h3{
 
 .form_email{
     text-align: center;
-
+    padding-bottom: 20px
 }
 
 .email{
     border-bottom: 1px dashed black;
+    ;
 }
 
 button{
@@ -219,6 +220,7 @@ h4{
     background-color: #A7BFC7;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 430px;
 }
 
 .top_sect{
