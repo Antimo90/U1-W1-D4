@@ -5,7 +5,217 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+  <body>
+    <div id="back_page">
+      <header>
+        <img src="./assets/img/logo.svg" alt="Logo Epicode" width="250px" />
+        <p>EPICODE - IL BLOG DEI DEVELOPERS</p>
+        <nav>
+          <ul>
+            <li>
+              <i class="fas fa-angle-double-right"></i
+              ><a href="#" class="nav">HOME</a
+              ><i class="fas fa-angle-double-left"></i>
+            </li>
+            <li>
+              <i class="fas fa-angle-double-right"></i
+              ><a href="#" class="nav">ARTICOLI</a
+              ><i class="fas fa-angle-double-left"></i>
+            </li>
+            <li>
+              <i class="fas fa-angle-double-right"></i
+              ><a href="#" class="nav">LAVORA CON NOI</a
+              ><i class="fas fa-angle-double-left"></i>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <h2>Come creare un template per i post</h2>
+          <p class="mario_rossi">
+            <i class="fas fa-pen"></i>di Mario Rossi -
+            <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+          </p>
+          <p class="intro">
+            La prima cosa da fare è suddividere in blocchi logici la pagina, i
+            dentificando le <strong class="key_words">parti comuni</strong> da
+            applicare a tutte le pagine
+          </p>
+          <div>
+            <p class="into_unorder">
+              Le varie aree saranno quindi suddivise in:
+            </p>
+            <ul>
+              <li class="item_unorder">
+                Contenuti di intestazione del tag
+                <span class="particular">&lt;header&gt;</span>
+              </li>
+              <li class="item_unorder">
+                Contenuti centrali variabili del tag
+                <span class="particular">&lt;main&gt;</span> (corpo principale)
+              </li>
+              <li class="item_unorder">
+                Contenuti di fine pagina comuni, da inserire nel tag non capisco
+                <span class="particular">&lt;footer&gt;</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="solo_margin">Formattazione del codice</p>
+          <div>
+            <p class="solo_margin">
+              Il testo dell'articolo dovrà essere formattato per identificare
+              tutte le parti da
+              <strong class="key_words">selezionare con i CSS</strong>.Perciò i
+              passi saranno:
+            </p>
+            <ol>
+              <li>
+                Progettare su carta il markup finale, assegnando ad ogni
+                specifico testo i tag appropriato
+              </li>
+              <li>
+                Scrivere l&apos;HTML dai tag esterni a quelli interni e
+                dall'alto verso il basso
+              </li>
+              <li>Applicare gli stili CSS</li>
+            </ol>
+          </div>
+          <p class="solo_margin">
+            L&apos;applicazione di stili CSS è cresciuta negli anni fino a
+            raggiungere la diffusione pressoché totale.
+          </p>
+          <table>
+            <caption class="head_table">
+              Diffusione dei CSS
+            </caption>
+            <thead>
+              <tr>
+                <th class="table_titles">Anno</th>
+                <th class="table_titles">% du utilizzo</th>
+                <th class="table_titles">Supporto browsers</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="white">2000</td>
+                <td class="white">20%</td>
+                <td class="white">17%</td>
+              </tr>
+              <tr>
+                <td class="grey">2002</td>
+                <td class="grey">35%</td>
+                <td class="grey">22%</td>
+              </tr>
+              <tr>
+                <td class="white">2004</td>
+                <td class="white">45%</td>
+                <td class="white">45%</td>
+              </tr>
+              <tr>
+                <td class="grey">2008</td>
+                <td class="grey">80%</td>
+                <td class="grey">51%</td>
+              </tr>
+              <tr>
+                <td class="white">2012</td>
+                <td class="white">100%</td>
+                <td class="white">76%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="video_description">
+            Un test di validazione potrà essere fatto tramite il
+            <a
+              href="https://epicode.com/it/candidati/?utm_source=googleads&utm_campaign=brand&utm_adgroup=brandphrase&utm_term=epicode&utm_campaign=Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=1246633295&hsa_cam=11897141170&hsa_grp=115607542316&hsa_ad=639941754622&hsa_src=g&hsa_tgt=kwd-1083842420863&hsa_kw=epicode&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=11897141170&gbraid=0AAAAABxWOfqe4UlYmF2ky8DcdIRELiddB&gclid=Cj0KCQjwxdXBBhDEARIsAAUkP6gH0nVXk6WroOcjsGTetBRnyPny3_NwNFJG1lZlKQFXO9j15ZFWjqwaAr5jEALw_wcB"
+              target="_blank"
+              style="color: blue"
+              >tool online
+            </a>
+            dedicato allo scopo. Una volta ottimizzato il tutto, avremo
+            raggiunto il nostro obiettivo ed essere stati dei veri developers
+            come loro:
+          </p>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/51MQqEqIWaY?si=YNOLRp1As20UogZw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="novelty">
+          <h3>Novità</h3>
+          <p>
+            Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla
+            nostra newsletter:
+          </p>
+          <form>
+            <input type="email" placeholder="inserisci la tua email" />
+            <button>Iscriviti!!</button>
+          </form>
+        </div>
 
-  <body></body>
+        <div>
+          <h2>Articoli correlati</h2>
+          <div>
+            <a
+              href="https://www.edatlas.it/scarica/SIA_3/Capitolo11/MaterialiOnLine/5ValidazioneHTML.pdf"
+              target="_blank"
+              >Validare il codice HTML
+            </a>
+          </div>
+          <p>Categoria : Develop</p>
+          <p>Data: 18-9-2020</p>
+          <div>
+            <a
+              href="https://toolset.mrw.it/html/html-fixer.html"
+              target="_blank"
+              >Correggere la sintassi
+            </a>
+          </div>
+          <p>Categoria : Develop</p>
+          <p>Data: 16-9-2020</p>
+          <div>
+            <a href="#">Meno Kb nella pagina</a>
+          </div>
+          <p>Categoria : ottimizzazione</p>
+          <p>Data: 30-9-2020</p>
+        </div>
+
+        <hr />
+      </main>
+      <footer>
+        <p>Blog Epicode &copy;2023</p>
+        <i
+          >Testata online di Mario Rossi, registrata con prot. n.213/2018 - via
+          Luigi Einaudi 2 - Milano P.IVA 00112233.
+          <a href="mailto:info@epicode.school" target="_blank"
+            >info@epicode.school
+          </a>
+        </i>
+      </footer>
+    </div>
+  </body>
 </html>
