@@ -188,6 +188,32 @@ h3{
     margin-bottom: 15px;
 }
 
+.new_paragraph{
+    margin-left: 10px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.form_email{
+    text-align: center;
+
+}
+
+.email{
+    border-bottom: 1px dashed black;
+}
+
+button{
+    background-color: blue;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
