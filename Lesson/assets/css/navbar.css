@@ -1,0 +1,26 @@
+/* vado a selezionare SOLO la ul direttamente figlia di nav */
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+/* vado a selezionare le a genericamente discendenti di nav */
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li i {
+  margin-right: 0.5em;
+}
+
+nav li {
+  margin-bottom: 0.25em;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  /* dopo aver importato il font "Lato" devo applicarlo alle porzioni del documento
+  che mi interessano */
+}

@@ -1,0 +1,45 @@
+/* questo foglio di stile, che deve venire importato DOPO il reset, ripristinerà
+alcune delle regole base che siamo abituati a vedere nei rendering delle pagine web */
+/* intendiamo eliminare gli stili di default del browser perchè:*/
+/* 1) vogliamo essere noi esplicitamente in controllo di come i nostri tag
+verranno renderizzati */
+/* 2) vogliamo appiattire le eventuali sottili differenze di rendering che ogni browser
+applica indipendentemente */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+p {
+  /* margin-top: 0.5em;
+    margin-bottom: 0.5em; */
+  margin: 0.5em 0;
+}
+
+body {
+  padding: 0.5em;
+}
+
+#small p {
+  width: 300px;
+  height: 200px;
+}
