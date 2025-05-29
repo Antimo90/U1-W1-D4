@@ -76,6 +76,7 @@ main{
     box-shadow: inset;
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.5);
     padding-bottom: 40px;
+    margin-bottom: 40px;
     
 }
 
@@ -128,7 +129,7 @@ h2{
     border-radius: 5px;
     border-top-width: 2px;
     border-bottom-width: 1px;
-    background-color: gray;
+    background-color: rgb(163, 163, 163, 0.5);
     
 }
 
@@ -195,6 +196,7 @@ table{
     height: 300px;
     border-radius: 10px 10px 10px 10px;
     margin-left: 10px;
+    margin-top: 30px;
 }
 
 .novelty{
@@ -270,3 +272,16 @@ h4{
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+.copyright{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.end_page{
+    color: white;
+}
+
+.email_epicode{
+    font-weight: bold;
+    color: purple;
+}
